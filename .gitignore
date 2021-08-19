@@ -3,6 +3,3 @@
 
 # ignore out files
 out/
-
-# ignore .iml
-LeetCodeSolutions.iml
