@@ -10,6 +10,9 @@ public class LongestCommonSubsequenceImpl implements TakeTwoStringRtnIntSolution
     }
 
     private int longestCommonSubsequence(String text1, String text2) {
+        // 动态规划
+        // dp[i][j] 表示第一个字符串截至前i位和第二个字符串截至前j位，这两者的公共字子序列数目
+
         String emptyString=  "";
         if(emptyString.equals(text1) || emptyString.equals(text2)) return 0;
         char[] firstString = text1.toCharArray();

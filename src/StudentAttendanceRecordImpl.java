@@ -58,6 +58,7 @@ public class StudentAttendanceRecordImpl implements TakeIntRtnIntSolutionService
 
 
     private int checkRecordRecursive(int n){
+        // 回溯算法
         recursiveHelper(0,0,0,n);
         return allPossibility;
     }
