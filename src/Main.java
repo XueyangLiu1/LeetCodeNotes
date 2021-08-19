@@ -10,5 +10,6 @@ public class Main {
         System.out.println(solution.returnAns("fhdjksfjks","fs"));
         System.out.println(solution.returnAns("dsfhjksd","i"));
         System.out.println(solution.returnAns("a",""));
+
     }
 }
