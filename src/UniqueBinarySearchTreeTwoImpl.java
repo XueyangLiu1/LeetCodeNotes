@@ -16,10 +16,7 @@ public class UniqueBinarySearchTreeTwoImpl implements TakeIntRtnTreeNodeListServ
         List<TreeNode> resultList = new ArrayList<>();
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 606888767d59f6bde40d92027d58771950324725
         return resultList;
     }
 
