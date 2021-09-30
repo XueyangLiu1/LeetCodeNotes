@@ -6,12 +6,12 @@ public class Main {
 //        TakeIntRtnIntSolutionService solution = new StudentAttendanceRecordImpl();
 //        System.out.println(solution.returnAns(10101));
 
-        TakeTwoStringRtnIntSolutionService solution = new CompareVersionNumbersImpl();
-        System.out.println(solution.returnAns("1.1.1","1.001.01"));
-        System.out.println(solution.returnAns("1.01.0.0.0.1","1.001"));
-        System.out.println(solution.returnAns("0.0.0.1","1.0.0.0"));
-        System.out.println(solution.returnAns("1.01","1.001"));
-        System.out.println(solution.returnAns("7.5.4.3","7.5.3"));
+//        TakeTwoStringRtnIntSolutionService solution = new CompareVersionNumbersImpl();
+//        System.out.println(solution.returnAns("1.1.1","1.001.01"));
+//        System.out.println(solution.returnAns("1.01.0.0.0.1","1.001"));
+//        System.out.println(solution.returnAns("0.0.0.1","1.0.0.0"));
+//        System.out.println(solution.returnAns("1.01","1.001"));
+//        System.out.println(solution.returnAns("7.5.4.3","7.5.3"));
 
 //        TakeIntRtnIntSolutionService solution = new BeautifulArrangementImpl();
 //        System.out.println(solution.returnAns(15));
@@ -23,5 +23,10 @@ public class Main {
 //        int[] endTimes = {40,16,32,39,46,43,28,13,44,46,39,44};
 //        int[] profits = {2,6,5,14,5,19,5,12,19,14,14,17};
 //        System.out.println(solution.returnAns(startTimes,endTimes,profits));
+        TakeStringRtnStringService solution = new MinimumRemoveMakeValidParenthesesImpl();
+        System.out.println(solution.returnAns("012345678"));
+        System.out.println(solution.returnAns("lee(t(c)o)de)"));
+        System.out.println(solution.returnAns("))(("));
+        System.out.println(solution.returnAns("(a(b(c)d)"));
     }
 }
