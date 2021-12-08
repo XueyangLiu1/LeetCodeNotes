@@ -27,7 +27,7 @@ public class ThreeSumZeroImpl implements TakeIntArrayRtnNestedIntListService {
         if(length<=2 || sortedNums.get(0)>0) return result;
         int readHead = 0;
         while(readHead<length-2){
-            if(readHead>0 && sortedNums.get(readHead)==sortedNums.get(readHead-1)){
+            if(readHead>0 && sortedNums.get(readHead).equals(sortedNums.get(readHead-1))){
                 readHead++;
                 continue;
             }
