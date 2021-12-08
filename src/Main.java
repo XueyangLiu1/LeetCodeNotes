@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -6,12 +7,12 @@ public class Main {
 //        TakeIntRtnIntSolutionService solution = new StudentAttendanceRecordImpl();
 //        System.out.println(solution.returnAns(10101));
 
-        TakeTwoStringRtnIntSolutionService solution = new CompareVersionNumbersImpl();
-        System.out.println(solution.returnAns("1.1.1","1.001.01"));
-        System.out.println(solution.returnAns("1.01.0.0.0.1","1.001"));
-        System.out.println(solution.returnAns("0.0.0.1","1.0.0.0"));
-        System.out.println(solution.returnAns("1.01","1.001"));
-        System.out.println(solution.returnAns("7.5.4.3","7.5.3"));
+//        TakeTwoStringRtnIntSolutionService solution = new CompareVersionNumbersImpl();
+//        System.out.println(solution.returnAns("1.1.1","1.001.01"));
+//        System.out.println(solution.returnAns("1.01.0.0.0.1","1.001"));
+//        System.out.println(solution.returnAns("0.0.0.1","1.0.0.0"));
+//        System.out.println(solution.returnAns("1.01","1.001"));
+//        System.out.println(solution.returnAns("7.5.4.3","7.5.3"));
 
 //        TakeIntRtnIntSolutionService solution = new BeautifulArrangementImpl();
 //        System.out.println(solution.returnAns(15));
@@ -23,5 +24,28 @@ public class Main {
 //        int[] endTimes = {40,16,32,39,46,43,28,13,44,46,39,44};
 //        int[] profits = {2,6,5,14,5,19,5,12,19,14,14,17};
 //        System.out.println(solution.returnAns(startTimes,endTimes,profits));
+//        TakeStringRtnStringService solution = new MinimumRemoveMakeValidParenthesesImpl();
+//        System.out.println(solution.returnAns("012345678"));
+//        System.out.println(solution.returnAns("lee(t(c)o)de)"));
+//        System.out.println(solution.returnAns("))(("));
+//        System.out.println(solution.returnAns("(a(b(c)d)"));
+        int[] nums1 = {99,99};
+        int[] nums2 = {6};
+        int[] nums3 = {1,2,3,4,5,6,7,8,9};
+        int[] nums4 = {9,8,7,6,5,4,3,2,1};
+        int[] nums5 = {1,2};
+        int[] nums6 = {1,1,1,1,1,1,1,1,1,1};
+        SortUtils.quickSort(nums1);
+        SortUtils.quickSort(nums2);
+        SortUtils.quickSort(nums3);
+        SortUtils.quickSort(nums4);
+        SortUtils.quickSort(nums5);
+        SortUtils.quickSort(nums6);
+        System.out.println(Arrays.toString(nums1));
+        System.out.println(Arrays.toString(nums2));
+        System.out.println(Arrays.toString(nums3));
+        System.out.println(Arrays.toString(nums4));
+        System.out.println(Arrays.toString(nums5));
+        System.out.println(Arrays.toString(nums6));
     }
 }
